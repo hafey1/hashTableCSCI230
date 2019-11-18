@@ -102,7 +102,7 @@ public class HW6 {
 			bufferedWriter.write("\n", 0, 1);
 
 			//in worst case of constantly inserting with the same key quadratic probe will not even fill the hash table
-			HashDictionary<Integer, String> testingQuadraticProbing = new HashDictionary<>(sizeMan);
+			HashDictionary<Integer, String> testingQuadraticProbing = new HashDictionary<>(6011);
 			for (int i = 0; i < testingQuadraticProbing.size(); i++) {
 
 
